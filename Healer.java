@@ -44,7 +44,7 @@ public class Healer extends Friendly {
             }
         }
         System.out.println(name + ": Got you up to " + c.getHealth()
-            + "health. Hope you feel better " + c.getName() + "!");
+            + " health. Hope you feel better " + c.getName() + "!");
     }
 
     /**

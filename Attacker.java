@@ -31,7 +31,7 @@ public class Attacker extends Unfriendly {
                 } else {
                     c.setHealth(c.getHealth() - 5);
                     System.out.println(name + ": Now you're only at " + c.getHealth()
-                        + "health. How does it feel " + c.getName() + "!?");
+                        + " health. How does it feel " + c.getName() + "!?");
                 }
             } else if (c.getMaxHealth() == 15) {
                 if (c.getHealth() <= 3) {
@@ -40,7 +40,7 @@ public class Attacker extends Unfriendly {
                 } else {
                     c.setHealth(c.getHealth() - 3);
                     System.out.println(name + ": Now you're only at " + c.getHealth()
-                        + "health. How does it feel " + c.getName() + "!?");
+                        + " health. How does it feel " + c.getName() + "!?");
                 }
 
             }
